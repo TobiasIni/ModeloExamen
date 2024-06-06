@@ -1,15 +1,16 @@
 import express from 'express'
-import controller from '../controller/'
+import ProductController from '../controller/sarasa.controller.js'
 
 class Router {
     constructor(){
         this.router = express.Router();
+        this.controller = new ProductController
   //      this.controller = //aca va new NOMBREcontroller
     }
-    //start () {
+    start () {
         //ACA VAN LAS RUTAS PARA LOS ABM
-    //return this.router
-    //}
+    return this.router
+    }
 
 }
 

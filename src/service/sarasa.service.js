@@ -1,3 +1,18 @@
-//import Model from "../model/NOMBRE.model.js";
+import ProductModel from "../models/sarasa.models.js";
 
-//export NOMBRECLASE
+
+class ProductServices {
+    constructor(){
+        this.model = new ProductModel;
+  //      this.controller = //aca va new NOMBREcontroller
+    }
+    //start () {
+        //ACA VAN LAS RUTAS PARA LOS ABM
+    //return this.router
+    //}
+
+}
+
+
+
+export default ProductServices

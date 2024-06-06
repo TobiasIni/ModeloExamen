@@ -1,3 +1,9 @@
-// import sarsaServices from '../service/NOMBREservice.js'
+import ProductServices from '../service/sarasa.service.js'
 
-//export NOMBRE DE LA CLASE
+class ProductController{
+    contructor(){
+        this.service = new ProductServices;
+    }
+}
+
+export default ProductController
